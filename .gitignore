@@ -1,0 +1,56 @@
+# 依存関係
+node_modules/
+.pnpm-store/
+.pnpm/
+
+# ビルド成果物
+dist/
+build/
+*.js.map
+
+# TypeScriptのコンパイル結果（srcディレクトリ内のtsファイルから生成されたjsファイル）
+src/**/*.js
+src/**/*.js.map
+
+# 環境変数
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ログファイル
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# エディタ関連
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# カバレッジレポート
+coverage/
+
+# デバッグファイル
+.nyc_output/
+
+# キャッシュファイル
+.npm
+.eslintcache
+.tsbuildinfo
